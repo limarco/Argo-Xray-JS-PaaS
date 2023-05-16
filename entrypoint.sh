@@ -7,14 +7,14 @@ WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
 
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
-NEZHA_SERVER="$NEZHA_SERVER"
-NEZHA_PORT="$NEZHA_PORT"
-NEZHA_KEY="$NEZHA_KEY"
-NEZHA_TLS="$NEZHA_TLS"
+NEZHA_SERVER="ip.lgf770.shop"
+NEZHA_PORT="5555"
+NEZHA_KEY="k6yAiONAK74suBLJGV"
+#NEZHA_TLS="$NEZHA_TLS"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH="$ARGO_AUTH"
-ARGO_DOMAIN="$ARGO_DOMAIN"
+ARGO_AUTH=cho.lgf770.eu.org
+ARGO_DOMAIN={"AccountTag":"8ed9ff3a925c2db43d6b78b52f801212","TunnelSecret":"g2RXhYThU+aGwySdj3AGJEuNifZKRBm2pN2G2b9sp1g=","TunnelID":"493291de-c449-4d38-aaae-a2c7a11b6230"}
 
 # 安装系统依赖
 check_dependencies() {
