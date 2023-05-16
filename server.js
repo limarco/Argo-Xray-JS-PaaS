@@ -1,5 +1,5 @@
-const username = process.env.WEB_USERNAME || "admin";
-const password = process.env.WEB_PASSWORD || "password";
+const username = process.env.WEB_USERNAME || "gitpod";
+const password = process.env.WEB_PASSWORD || "gitpodadmin";
 const url = "http://127.0.0.1";
 const port = process.env.PORT || 3000;
 const express = require("express");
