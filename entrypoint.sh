@@ -13,7 +13,7 @@ NEZHA_KEY="k6yAiONAK74suBLJGV"
 #NEZHA_TLS="$NEZHA_TLS"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH={"AccountTag":"8ed9ff3a925c2db43d6b78b52f801212","TunnelSecret":"0p+jcZglSJ8aL+kNqb2hIyrBBjlfGxImejiNu9rhxPo=","TunnelID":"336d8943-4713-4f12-855e-454a19b472a3"}
+ARGO_AUTH=eyJhIjoiOGVkOWZmM2E5MjVjMmRiNDNkNmI3OGI1MmY4MDEyMTIiLCJ0IjoiOTQ0YjdhOGMtOWQ1Yy00NTJkLWFiOTctM2VmNDU0YWRmNGU2IiwicyI6IlpHWTRNakl6TUdZdE1XSmxNUzAwTkRSakxXSTJOV0V0TnpSa01HTTFNVEF3TjJZMCJ9
 ARGO_DOMAIN=gitpod.lgf770.eu.org
 
 # 安装系统依赖
